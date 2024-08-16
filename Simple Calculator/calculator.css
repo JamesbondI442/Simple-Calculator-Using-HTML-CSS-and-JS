@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #89757561;
+}
+
+.result1 {
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid rgba(0, 7, 9, 0.941);
+    border-radius: 10px;
+    background-color: #a2e61117;
+    box-shadow: 0px 0px 10px rgba(17, 183, 228, 0.1);
+}
+
+.result {
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.res {
+    font-size: 22px; /* Reduced font size to fit more text */
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word; /* Ensures long equations wrap to the next line */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    
+}
+
+.button {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.645);
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.button:active {
+    background-color: #004080;
+}
+
+.button.wide {
+    grid-column: span 2;
+}
